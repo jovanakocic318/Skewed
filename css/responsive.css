@@ -15,6 +15,39 @@
     
     
     
+    .navbar-nav li{
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s linear;
+}
+
+
+
+.navbar-nav li:hover,
+.navbar-nav li.active{
+    background: transparent;
+    border-bottom: 2px solid #f7cc4b;
+}
+
+.navbar-nav li a.nav-link{
+
+    color:#fff !important;
+    transition: 0.5s linear;
+}
+
+.navbar-nav li:hover a.nav-link,
+.navbar-nav li.active a{
+    color:#fff !important;
+}
+
+#main-menu{
+    margin: 0px;
+}
+
+.navbar-brand{
+    max-width: 130px;
+}
+    
     
     
 }
@@ -25,6 +58,14 @@
     html{
         font-size: 16px;
     }
+    
+    .navbar-brand{
+    max-width: 250px;
+}
+
+.navbar-nav li a{
+    padding: 8px 15px !important;
+}
     
     
 }
