@@ -95,3 +95,9 @@ a{
 .bg-warning{
     background-color: #f7cc4b !important;
 }
+
+.about h2{
+    color:#222;
+    font-family: 'PT Sans';
+    font-size: 40px;
+}
