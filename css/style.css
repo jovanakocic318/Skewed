@@ -13,7 +13,7 @@ body{
     font-weight: 400;
 }
 
-a{
+a, a:hover{
     text-decoration: none;
 }
 
@@ -116,7 +116,8 @@ a{
     margin: auto;
 }
 
-.video:before{
+.video:before,
+.portfolio:before{
     content: '';
     position: absolute;
     top:0;
@@ -129,7 +130,8 @@ a{
         
 }
 
-.video:after{
+.video:after,
+.portfolio:after{
     content: '';
     position: absolute;
     bottom:0;
@@ -222,4 +224,24 @@ a{
 .parallax:after{
     bottom: 0;
     background: url('assets/bottom-left.png') no-repeat;
+}
+
+.portfolio .hover{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #101010;
+    background: rgba(255,255,255,0.5);
+    font-size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.portfolio figure:hover .hover{
+    display: block;
 }
