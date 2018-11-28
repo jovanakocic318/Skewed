@@ -309,3 +309,21 @@ a, a:hover{
 .form-control:-moz-placeholder { /* Firefox 18- */
   color: #fff;
 }
+
+
+
+footer .social .fa{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius: 50%;
+    font-size: 28px;
+    transition: 0.5s linear;
+}
+
+footer .social .fa:hover{
+    background: #f7cc4b;
+    border:2px solid #f7cc4b;
+}
