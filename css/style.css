@@ -257,3 +257,18 @@ a, a:hover{
     font-size: 84px;
     letter-spacing: -2.5px;
 }
+
+.testimonials-item{
+    max-width: 90%;
+    margin: auto;
+}
+
+.testimonials .testimonials-item p{
+    color:#000;
+    font-size: 20px;
+}
+
+.testimonials .testimonials-item .blockquote-footer{
+    font-size: 1rem;
+    color:#bbb;
+}
