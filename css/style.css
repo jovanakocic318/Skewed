@@ -245,3 +245,15 @@ a, a:hover{
 .portfolio figure:hover .hover{
     display: block;
 }
+
+
+.achievements .fa{
+    font-size: 100px;
+    color:#000;
+    
+}
+
+.achievements .achievements-value{
+    font-size: 84px;
+    letter-spacing: -2.5px;
+}
