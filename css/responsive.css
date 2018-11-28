@@ -102,12 +102,13 @@
 }
 
 .pseudo{
-    padding: 250px 0
+    padding: 250px 0;
 }
 
 .video:before, .video:after,
 .parallax:before, .parallax:after,
-.portfolio:before, .portfolio:after
+.portfolio:before, .portfolio:after,
+.subscribe:before
 {
     height: 150px;
 }

@@ -272,3 +272,40 @@ a, a:hover{
     font-size: 1rem;
     color:#bbb;
 }
+
+
+
+.subscribe:before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('assets/top-right.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.subscribe .subscribe-form .form-control{
+    border-radius: 0;
+    background: transparent;
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.subscribe .subscribe-form .form-control:focus{
+    box-shadow: 0 0 5px #fff;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
