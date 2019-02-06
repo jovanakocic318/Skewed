@@ -11,10 +11,22 @@ body{
     color:#b1b1b1;
     font-family: 'Roboto';
     font-weight: 400;
+    position: relative;
 }
 
 a, a:hover{
     text-decoration: none;
+}
+
+
+
+.header-active{
+    background: rgba(0,0,0,0.8);
+
+}
+
+header{
+    transition: 0.5s linear;
 }
 
 
@@ -41,8 +53,8 @@ a, a:hover{
     border-bottom: none;
 }
 
-.navbar-nav li:hover,
-.navbar-nav li.active{
+.navbar-nav li:hover a,
+.navbar-nav li a.active{
     background: #f7cc4b
 }
 
@@ -54,7 +66,7 @@ a, a:hover{
 }
 
 .navbar-nav li:hover a.nav-link,
-.navbar-nav li.active a{
+.navbar-nav li a.active{
     color:#fff !important;
 }
 
@@ -75,8 +87,10 @@ a, a:hover{
     font-size: 40px !important;
 }
 
-
-.hello:after{
+.lead-slider-wrapper{
+    position: relative;
+}
+.lead-slider-wrapper:after{
     content: '';
     display: block;
     position: absolute;
@@ -86,7 +100,20 @@ a, a:hover{
     height: 100px;
     background: url('assets/bottom-right.png') no-repeat bottom center;
     background-size: 100% 100%;
+    z-index: 10;
 }
+
+
+.lead-slider-wrapper .owl-dots{
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+    left: 0;
+}
+
+.lead-slider-wrapper .owl-carousel .owl-dots .owl-dot.active span,
+.lead-slider-wrapper .owl-carousel .owl-dots .owl-dot:hover span {
+      background: #fff; }
 
 .text-warning{
     color:#f7cc4b !important;
@@ -143,7 +170,10 @@ a, a:hover{
     display: block;
         
 }
-
+.team .owl-dots{
+    position: relative;
+    top:30px;
+}
 .team figure{
     width: 220px;
     height: 220px;
@@ -226,6 +256,12 @@ a, a:hover{
     background: url('assets/bottom-left.png') no-repeat;
 }
 
+
+
+.portfolio .owl-dots{
+    position: relative;
+    top:30px;
+}
 .portfolio .hover{
     position: absolute;
     width: 60px;
@@ -256,6 +292,12 @@ a, a:hover{
 .achievements .achievements-value{
     font-size: 84px;
     letter-spacing: -2.5px;
+}
+
+.testimonials .owl-dots{
+    position: relative;
+    top:50px;
+        
 }
 
 .testimonials-item{

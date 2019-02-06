@@ -23,8 +23,8 @@
 
 
 
-.navbar-nav li:hover,
-.navbar-nav li.active{
+.navbar-nav li:hover a,
+.navbar-nav li a.active{
     background: transparent;
     border-bottom: 2px solid #f7cc4b;
 }
@@ -36,7 +36,7 @@
 }
 
 .navbar-nav li:hover a.nav-link,
-.navbar-nav li.active a{
+.navbar-nav li a.active{
     color:#fff !important;
 }
 
@@ -83,8 +83,12 @@
     padding: 300px 0;
 }
 
-.hello:after{
+.lead-slider-wrapper:after{
     height: 150px;
+}
+
+.lead-slider-wrapper .owl-dots{
+    bottom: 200px;
 }
 
 .custom-padding{
